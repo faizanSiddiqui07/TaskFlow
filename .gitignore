@@ -6,4 +6,4 @@ client/dist
 server/dist
 .env
 .DS_Store
-tasks.db
+server/tasks.json
