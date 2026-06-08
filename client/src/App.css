@@ -30,8 +30,8 @@ button {
 
 .hero {
   display: flex;
-  justify-content: space-between;
-  gap: 24px;
+  justify-content: center;
+  text-align: center;
   margin-bottom: 28px;
 }
 
@@ -53,7 +53,7 @@ h1 {
 
 .subtitle {
   max-width: 720px;
-  margin-top: 16px;
+  margin: 16px auto 0;
   color: #64748b;
   font-size: 17px;
   line-height: 1.7;
