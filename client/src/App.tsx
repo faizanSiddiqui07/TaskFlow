@@ -16,7 +16,7 @@ type Task = {
 
 type Filter = "all" | "active" | "completed";
 
-const API_URL = "http://localhost:5000/tasks";
+const API_URL = "https://taskflow-1-2olw.onrender.com/tasks";
 
 function isOverdue(task: Task) {
   if (!task.dueDate || task.completed) return false;
@@ -149,15 +149,17 @@ function App() {
       <Toaster position="top-right" />
 
       <section className="hero">
-        <div>
-      
-          <h1>TaskFlow</h1>
-          <p className="subtitle">
-  A personal task manager with task creation, search, filtering,
-  due dates and progress tracking.
-</p>
-        </div>
-      </section>
+  <div style={{ textAlign: "center" }}>
+
+    <h1>TaskFlow</h1>
+
+    <p className="subtitle">
+      A personal task manager with task creation, search, filtering,
+      due dates and progress tracking.
+    </p>
+
+  </div>
+</section>
 
       <section className="stats">
         <div className="stat-card">
